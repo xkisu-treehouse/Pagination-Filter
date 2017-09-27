@@ -12,6 +12,11 @@ body {
     padding: 50px;
 }
 
+.page h1 {
+    text-align: center;
+    margin: 25px 0;
+}
+
 .page-header {
     margin-bottom: 20px;
 }
@@ -28,11 +33,13 @@ body {
     float: right;
 }
 
-.page-header .student-search input {
+.page-header .student-search input,
+.page-header input {
     border-radius: 5px;
     border: 1px solid #eaeaea;
     padding: 8px 15px;
     font-size: 14px;
+    float: right;
 }
 
 .page-header .student-search button {
@@ -112,6 +119,7 @@ body {
     padding: 3px 8px;
     text-decoration: none;
     color: #4ba6c3;
+    cursor: pointer;
 }
 
 .pagination li a.active,
